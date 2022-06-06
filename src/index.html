@@ -9,25 +9,88 @@
 <body>
   <div class="container">
     <div class="task-manager">
-      <div class="column">
-        <div class="column-header">TO DO</div>
-        <div class="column-task-container"></div>
-        <div class="column-footer">
-          <a class="column-add-link">+ Add Task</a>
+      <div class="tasks-container" data-id-column="to do">
+        <div class="tasks-header">
+          <h3 class="tasks-title">TO DO</h3>
+        </div>
+        <div class="tasks-content">
+          <ul class="task-items"></ul>
+        </div>
+        <div class="tasks-footer">
+          <div class="tasks-add-card">
+            <button>
+              + 
+              <span>
+                Add another card
+                <span></span>
+              </span>
+            </button>
+          </div>
+          <form class="add-task hidden">
+            <div class="wrapper-input">
+              <input type="text" class="add-task-input" placeholder="Enter text here...">
+            </div>
+            <button class="add-task-newcard btn btn-primary">Add Card</button>
+            <button class="add-task-delete">
+              <span></span>
+            </button>
+          </form>
         </div>
       </div>
-      <div class="column">
-        <div class="column-header">IN PROGRESS</div>
-        <div class="column-task-container"></div>
-        <div class="column-footer">
-          <a class="column-add-link">+ Add Task</a>
+      <div class="tasks-container" data-id-column="in progress">
+        <div class="tasks-header">
+          <h3 class="tasks-title">IN PROGRESS</h3>
+        </div>
+        <div class="tasks-content">
+          <ul class="task-items"></ul>
+        </div>
+        <div class="tasks-footer">
+          <div class="tasks-add-card">
+            <button>
+              + 
+              <span>
+                Add another card
+                <span></span>
+              </span>
+            </button>
+          </div>
+          <form class="add-task hidden">
+            <div class="wrapper-input">
+              <input type="text" class="add-task-input" placeholder="Enter text here...">
+            </div>
+            <button class="add-task-newcard btn btn-primary">Add Card</button>
+            <button class="add-task-delete">
+              <span></span>
+            </button>
+          </form>
         </div>
       </div>
-      <div class="column">
-        <div class="column-header">DONE</div>
-        <div class="column-task-container"></div>
-        <div class="column-footer">
-          <a class="column-add-link">+ Add Task</a>
+      <div class="tasks-container" data-id-column="done">
+        <div class="tasks-header">
+          <h3 class="tasks-title">DONE</h3>
+        </div>
+        <div class="tasks-content">
+          <ul class="task-items"></ul>
+        </div>
+        <div class="tasks-footer">
+          <div class="tasks-add-card">
+            <button>
+              + 
+              <span>
+                Add another card
+                <span></span>
+              </span>
+            </button>
+          </div>
+          <form class="add-task hidden">
+            <div class="wrapper-input">
+              <input type="text" class="add-task-input" placeholder="Enter text here...">
+            </div>
+            <button class="add-task-newcard btn btn-primary">Add Card</button>
+            <button class="add-task-delete">
+              <span></span>
+            </button>
+          </form>
         </div>
       </div>
     </div>
